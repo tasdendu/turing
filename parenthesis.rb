@@ -1,18 +1,16 @@
-#begin
-Ruby problem
-Give n pairs of parenthesis, write a function to generate all combinations of well-formed parentheses
+# Ruby problem
+# Give n pairs of parenthesis, write a function to generate all combinations of well-formed parentheses
 
-Example 1:
-Input: n = 3
-Output: ["((()))", "(()())", "(())()", "()(())", "()()()"]
+# Example 1:
+# Input: n = 3
+# Output: ["((()))", "(()())", "(())()", "()(())", "()()()"]
 
-Example 2: 
-Input: n = 1
-Output: ["()"]
+# Example 2: 
+# Input: n = 1
+# Output: ["()"]
 
-Constraints:
-1 <= n <= 8
-#end
+# Constraints:
+# 1 <= n <= 8
 
 def generate_parenthesis(n)
   result = []
